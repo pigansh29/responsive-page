@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  padding: 0;
+  background-color: #f8f9fa;
+}
+
+.App {
+  padding: 20px;
+}
+
+
+
+@media (max-width: 768px) {
+  .cont2 {
+    flex-direction: column; /* Stacks the columns vertically on smaller screens */
+  }
+
+  .posts,
+  .sidebar {
+    flex: unset; /* Resets the flex properties */
+    width: 100%; /* Ensures full width */
+  }
+}

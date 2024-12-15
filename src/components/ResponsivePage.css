@@ -1,0 +1,249 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.logo-green {
+  color: #00aa44; /* Green */
+}
+
+.logo-gray {
+  color: #666;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.search-icon {
+  background: #f1f1f1;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+.account-section {
+  font-size: 14px;
+  color: #333;
+}
+
+.account-highlight {
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero-section {
+   margin-top: 325px;
+    margin-left: 50px;
+    font-size: 1.5rem;
+}
+ .cont1{
+     background: url("https://dont-copy.netlify.app/assets/c3ac7682e52df2e10d0a36ec3f243a44-6fhMyk-S.jpg") center center / cover no-repeat;
+    z-index: 1;
+    height: 480px;
+    width: 100%;
+    overflow: hidden;
+ }
+ .cont1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.hero-title {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero-subtitle {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Tabs Container */
+.tabs-container {
+     margin: 0px 270px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 1px solid #ddd;
+}
+
+.tabs {
+  display: flex;
+  gap: 25px;
+}
+
+.tab {
+  font-size: 16px;
+  color: #666;
+  cursor: pointer;
+}
+
+.tab.active {
+  color: black;
+  font-weight: bold;
+}
+
+/* Action Buttons */
+.action-buttons {
+    float: right;
+  display: flex;
+  gap: 10px;
+}
+
+.write-post,
+.join-group {
+  padding: 8px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.write-post {
+  background-color: #e7e7e7;
+  color: #333;
+}
+
+.join-group {
+  background-color: #2f80ed;
+  color: white;
+  font-weight: bold;
+}
+/* Overlay for signup popup */
+.signup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Signup Modal */
+.signup-modal {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  width: 500px;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Signup Header */
+.signup-header {
+  font-size: 1rem;
+  color: #4caf50;
+  margin-bottom: 20px;
+}
+
+/* Form Input Styles */
+.signup-form .input-group {
+  display: flex;
+  gap: 10px;
+}
+
+.signup-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.signup-btn {
+  background-color: #2f80ed;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.signup-btn:hover {
+  background-color: #1c6bc6;
+}
+
+/* Social Login Buttons */
+.social-login button {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.facebook-login {
+  background-color: #4267b2;
+  color: white;
+}
+
+.google-login {
+  background-color: #db4437;
+  color: white;
+}
+
+.signin-text {
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
+
+.signin-text span {
+  color: #2f80ed;
+  cursor: pointer;
+  font-weight: bold;
+}
+
